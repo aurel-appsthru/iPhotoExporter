@@ -3,9 +3,11 @@ IPhotoExporter
 
 IPhotoExporter est un script python qui exporte et synchronise les événements ou les albums iPhoto ( MacOSX ) simplement vers des dossiers.
 
-En moins de 5 minutes*, archivez le contenu de iPhoto dans des dossiers traditionnels et consultables par exemples depuis un NAS, une SmartTV ou Windows par exemple !
+En moins de 5 minutes*, archivez le contenu de iPhoto dans des dossiers traditionnels et consultables par exemple depuis un NAS, une SmartTV ou Windows par exemple !
 
 Plus facile aussi pour repérer les doublons grâce à des logiciels tiers. 
+
+*4'30 pour 12Go de photos ( MBP/SSD ) 
 
 ###Fonctionnalités clés : 
 
@@ -16,11 +18,10 @@ Plus facile aussi pour repérer les doublons grâce à des logiciels tiers.
 
 Testé avec iPhoto 11 9.2.3 sur MacOSX Lion 10.7.4.
 
-*4'30 pour 12Go de photos ( MBP/SSD ) 
 
 Utilisation
 -----------
-* Copiez le script ( dans Documents par exemple )
+* [Téléchargez le script](https://github.com/aurel-appsthru/iPhotoExporter/downloads) ( dans Documents par exemple )
 * Lancez un Terminal ( Applications > Utilitaires > Terminal )
 * Placez vous à l'emplacement du script
 
@@ -43,7 +44,7 @@ Consultez les exemples ci-dessous.
 Examples
 --------
 
-Vous souhaitez exporter tous les événements, avec les images originelles :
+Vous souhaitez exporter tous les événements, avec les images originales :
 
     python exportiphoto.py -o "$HOME/Pictures/Bibliothèque iPhoto" "$HOME/Pictures/iPhoto Export"
 
