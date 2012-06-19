@@ -1,67 +1,89 @@
 IPhotoExporter
 ---
 
-IPhotoExporter est un script python qui exporte et synchronise les événements ou les albums iPhoto ( MacOSX ) simplement vers des dossiers.
+*[Voir la version Française](README.FR.MD)*
 
+<<<<<<< HEAD
 En moins de 5 minutes*, archivez le contenu de iPhoto dans des dossiers traditionnels et consultables par exemple depuis un NAS, une SmartTV ou Windows par exemple !
+=======
+IPhotoExporter is a python script that exports and synchronizes iPhoto events or albums (MacOSX) simply to folders.
+>>>>>>> English translation of the readme file
 
-Plus facile aussi pour repérer les doublons grâce à des logiciels tiers. 
+In less than 5 minutes*, archive the contents of iPhoto in folders to see them from a NAS, a SmartTV or Windows for example!
 
+<<<<<<< HEAD
 *4'30 pour 12Go de photos ( MBP/SSD ) 
 
 ###Fonctionnalités clés : 
+=======
+It was also easier to identify duplicates with third party software.
+>>>>>>> English translation of the readme file
 
-- exporte les albums ou les événements
-- synchronisation des éléments
-- sauvegarde des originaux ( option )
-- ajoute le titre de la photo au nom du fichier
-
-Testé avec iPhoto 11 9.2.3 sur MacOSX Lion 10.7.4.
+*4'30 for 12GB of photos (MBP / SSD) 
 
 
-Utilisation
+
+###Key features : 
+
+- Exports albums or events
+- Synchronization of the elements
+- Backup of originals (optional)
+- Adds the title of the photo to the file name
+
+Tested with iPhoto 11 9.2.3 on MacOSX 10.7.4 Lion.
+
+
+Use
 -----------
+<<<<<<< HEAD
 * [Téléchargez le script](https://github.com/aurel-appsthru/iPhotoExporter/downloads) ( dans Documents par exemple )
 * Lancez un Terminal ( Applications > Utilitaires > Terminal )
 * Placez vous à l'emplacement du script
+=======
+* Copy the script (for example in Documents)
+* Run a Terminal (Applications> Utilities> Terminal)
+* Move to the location of the script
+>>>>>>> English translation of the readme file
 
 		cd $HOME/Documents 
 
-* Lancez le script comme ceci :
+* Run the script like this:
 
-		python iphotoexporter.py [options] "Librairie-iPhoto" "dossier-destination"
+		python iphotoexporter.py [options] "iPhoto Library" "destination-folder"
 
 
     Options:
 
-        -a, --albums		traite les albums à la place des événements
-        -o, --original		exporte aussi les images originales    
-        -v, --verbose		affiche toutes les actions
-        -t, --test			ne copie pas les fichiers et ne créé pas les dossiers
+		-a, -albums		albums processes instead of events
+		-o -original	also exports original master images
+		-v, -verbose	print all actions
+		-t, -test		does not copy files and does not create folders
 
-Consultez les exemples ci-dessous.
+See the examples below.
 
 Examples
 --------
 
+<<<<<<< HEAD
 Vous souhaitez exporter tous les événements, avec les images originales :
+=======
+You want to export all events, with the original images:
+>>>>>>> English translation of the readme file
 
-    python exportiphoto.py -o "$HOME/Pictures/Bibliothèque iPhoto" "$HOME/Pictures/iPhoto Export"
+    python iphotoexporter.py -o "$HOME/Pictures/iPhoto Library" "$HOME/Pictures/iPhoto Export"
 
 
     
-Résultat
+Results
 ---------
+* By default, iPhotoExporter exports events. To export the albums use the -a option.
 
-* Par défaut, iPhotoExporter exporte les événements. Pour exporter les albums utilisez l'option -a.
+* The script created a different folder for each album or event.
 
-* Le script créé un dossier différent pour chaque événement ou album.
+* Originals photos are suffixed with [original].
 
-* Les photos d'origines sont suffixées avec le texte [original].
-
-* Les photos dont le titre a été édité sont suffixées avec ce titre entre crochets. 
-
+* Photos whose title was edited are suffixed with the caption in brackets.
     
 ---
-###Confession : 
-Dérivé du script de [Derrick Childers](https://github.com/derrickchilders) sur [macosxhints](http://www.macosxhints.com/article.php?story=20081108132735425), le script iPhotoExplorer se distingue par l'apport de la synchronisation, de la sauvegarde des originaux et fonctionne avec les caractères accentués.
+###Disclaimer : 
+Derived from the script of [Derrick Childers](https://github.com/derrickchilders) on [macosxhints](http://www.macosxhints.com/article.php?story=20081108132735425), the iPhotoExplorer script is characterized by the addition of the synchronization, backup of originals, and works with accented characters.

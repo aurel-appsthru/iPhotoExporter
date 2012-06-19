@@ -2,3 +2,5 @@ dev-ressources/
 launch-script-iPhotoExporter.sh
 
 .iPhotoExporter.py.marks
+
+.DS_Store
