@@ -1,7 +1,7 @@
 IPhotoExporter
 ===
 
-*[Voir la version Française](README.FR.MD)*
+*[Voir la version Française](README.FR.md)*
 
 iPhotoExporter is a python script that exports and synchronizes iPhoto events or albums (MacOSX) simply to folders.
 
